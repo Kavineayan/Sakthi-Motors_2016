@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#006DE1" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <!-- Showroom Interior Walls & Polished Marble Floor -->
+  <rect width="800" height="300" fill="url(#wallGrad)"/>
+  <rect y="300" width="800" height="200" fill="#090D16"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#334155" stroke-width="3"/>
+  <!-- Floor Reflection Grid -->
+  <g opacity="0.2" stroke="#64748B">
+    <line x1="100" y1="300" x2="0" y2="500"/>
+    <line x1="300" y1="300" x2="200" y2="500"/>
+    <line x1="500" y1="300" x2="600" y2="500"/>
+    <line x1="700" y1="300" x2="800" y2="500"/>
+  </g>
+  <!-- Sakthi Motors Wall Header -->
+  <rect x="250" y="30" width="300" height="60" rx="8" fill="#0B1B3D" stroke="#E51937" stroke-width="2"/>
+  <text x="400" y="68" font-family="'Outfit', sans-serif" font-weight="900" font-size="20" fill="#FFFFFF" text-anchor="middle">SAKTHI <tspan fill="#E51937">MOTORS</tspan></text>
+  <!-- Spotlights & Podiums -->
+  <ellipse cx="200" cy="360" rx="110" ry="25" fill="#1E293B" stroke="#E51937" stroke-width="2"/>
+  <ellipse cx="600" cy="360" rx="110" ry="25" fill="#1E293B" stroke="#00E5FF" stroke-width="2"/>
+  <!-- Podium Spot Beams -->
+  <polygon points="200,0 90,360 310,360" fill="#FFFFFF" opacity="0.06"/>
+  <polygon points="600,0 490,360 710,360" fill="#FFFFFF" opacity="0.06"/>
+  <text x="200" y="400" font-family="sans-serif" font-weight="bold" font-size="12" fill="#94A3B8" text-anchor="middle">PREMIUM SPORTS ZONE</text>
+  <text x="600" y="400" font-family="sans-serif" font-weight="bold" font-size="12" fill="#94A3B8" text-anchor="middle">ELECTRIC & COMMUTER LOUNGE</text>
+</svg>
